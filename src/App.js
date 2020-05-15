@@ -3,14 +3,14 @@ import 'react-bulma-components/dist/react-bulma-components.min.css';
 
 import Header from './components/Header';
 import Button from './components/AddButton';
-import Loading from './components/Loading';
+import ListProducts from './components/ListProducts';
 
 function App() {
   return (
     <>
       <Header title="Products App" />
       <Button />
-      <Loading />
+      <ListProducts />
     </>
   );
 }
